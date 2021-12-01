@@ -1,0 +1,54 @@
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-grow: 6;
+    flex-direction: column;
+    background-color: darkgray
+}
+
+header, 
+article, 
+aside, 
+footer {
+    margin: 10px;
+}
+    
+header {
+    text-align: center;
+    background-color: darkkhaki;
+    flex-grow: 1;
+}
+  
+article {
+    text-align: center;
+    flex-grow: 3;
+    background-color: darksalmon;
+}
+
+.box {
+    float: left;
+    margin: 75px;
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+}
+
+aside {
+    text-align: center;
+    flex-grow: 2;
+    background-color: darkseagreen;
+}
+  
+footer {
+    text-align: center;
+    flex-grow: 1;
+    background-color: darkkhaki;
+}
+  
+.wrapper-article-aside {
+    display: flex;
+    flex-grow: 4;
+}
